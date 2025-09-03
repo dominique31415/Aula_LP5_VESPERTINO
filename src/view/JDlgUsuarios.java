@@ -263,14 +263,14 @@ public class JDlgUsuarios extends javax.swing.JDialog {
     }//GEN-LAST:event_jBtnAlterarActionPerformed
 
     private void jBtnExcluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnExcluirActionPerformed
-        // TODO add your handling code here:
+        Util.pergunta("Desja excluir??");        // TODO add your handling code here:
 
     }//GEN-LAST:event_jBtnExcluirActionPerformed
 
 
     private void jBtnConfirmarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnConfirmarActionPerformed
         // TODO add your handling code here:
-        
+         int cod = Util.strToInt(jTxtCodigo.getText());
  
     }//GEN-LAST:event_jBtnConfirmarActionPerformed
 
